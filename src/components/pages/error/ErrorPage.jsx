@@ -1,13 +1,16 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 function ErrorPage() {
+
   return (
     <div>
-      <h2>ErrorPage</h2>
-      <Link to="/">Retourner à la page d'acceuil</Link>
+      <h1>ErrorPage</h1>
+      <Link to="/">
+        <button>Retourner à la page d'acceuil</button>
+      </Link>
     </div>
   );
 }
 
-export default ErrorPage
+export default ErrorPage;

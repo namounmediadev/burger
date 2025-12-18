@@ -10,9 +10,8 @@ function LoginForm() {
   // Set of behaviors
   const handleSubmit = (e) => {
     e.preventDefault();
-    //alert(`Bonjour ${firstname}`);
-    navigate(`/order/${firstname}`);
     setFirstname("");
+    navigate(`/order/${firstname}`);
   };
 
   // Render
