@@ -11,7 +11,7 @@ function LoginForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setInputFirstname("");
-    navigate(`/order/${inputFirstname}`);
+    navigate(`order/${inputFirstname}`);
   };
 
   // Render
